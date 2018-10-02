@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: d127d36ee0015445e9844ef1fe3d4d95
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back_wall
+    100002: door
+    100004: floor
+    100006: front_wall
+    100008: lab
+    100010: leaf1
+    100012: leaf2
+    100014: leaf3
+    100016: Left_wall
+    100018: muistitaulu
+    100020: plant
+    100022: pole
+    100024: pole2
+    100026: Post_it
+    100028: Pot
+    100030: Right_wall
+    100032: //RootNode
+    100034: screen
+    100036: screen2
+    100038: screen3
+    100040: silo
+    100042: table
+    100044: window
+    100046: window_inside
+    100048: window_outside
+    400000: back_wall
+    400002: door
+    400004: floor
+    400006: front_wall
+    400008: lab
+    400010: leaf1
+    400012: leaf2
+    400014: leaf3
+    400016: Left_wall
+    400018: muistitaulu
+    400020: plant
+    400022: pole
+    400024: pole2
+    400026: Post_it
+    400028: Pot
+    400030: Right_wall
+    400032: //RootNode
+    400034: screen
+    400036: screen2
+    400038: screen3
+    400040: silo
+    400042: table
+    400044: window
+    400046: window_inside
+    400048: window_outside
+    2100000: No Name
+    2300000: back_wall
+    2300002: door
+    2300004: floor
+    2300006: front_wall
+    2300008: lab
+    2300010: leaf1
+    2300012: leaf2
+    2300014: leaf3
+    2300016: Left_wall
+    2300018: muistitaulu
+    2300020: plant
+    2300022: pole
+    2300024: pole2
+    2300026: Post_it
+    2300028: Pot
+    2300030: Right_wall
+    2300032: screen
+    2300034: screen2
+    2300036: screen3
+    2300038: silo
+    2300040: table
+    2300042: window
+    2300044: window_inside
+    2300046: window_outside
+    3300000: back_wall
+    3300002: door
+    3300004: floor
+    3300006: front_wall
+    3300008: lab
+    3300010: leaf1
+    3300012: leaf2
+    3300014: leaf3
+    3300016: Left_wall
+    3300018: muistitaulu
+    3300020: plant
+    3300022: pole
+    3300024: pole2
+    3300026: Post_it
+    3300028: Pot
+    3300030: Right_wall
+    3300032: screen
+    3300034: screen2
+    3300036: screen3
+    3300038: silo
+    3300040: table
+    3300042: window
+    3300044: window_inside
+    3300046: window_outside
+    4300000: lab
+    4300002: leaf3
+    4300004: leaf2
+    4300006: leaf1
+    4300008: plant
+    4300010: Post_it
+    4300012: Pot
+    4300014: screen3
+    4300016: silo
+    4300018: door
+    4300020: back_wall
+    4300022: window_inside
+    4300024: window_outside
+    4300026: Right_wall
+    4300028: Left_wall
+    4300030: screen
+    4300032: pole2
+    4300034: screen2
+    4300036: muistitaulu
+    4300038: window
+    4300040: front_wall
+    4300042: pole
+    4300044: floor
+    4300046: table
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
