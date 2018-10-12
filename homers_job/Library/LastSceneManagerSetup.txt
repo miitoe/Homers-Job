@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Millas_test_scene.unity
+- path: Assets/Scenes/Milla_test_scene_v2.unity
   isLoaded: 1
   isActive: 1
