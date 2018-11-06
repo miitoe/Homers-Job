@@ -27,21 +27,21 @@ public class ButtonPush : MonoBehaviour {
         if (isPushed)
         {
             //...start closing it at a rate of -90 degrees per second
-            transform.Rotate(transform.forward, 0.7f * Time.deltaTime);
+            transform.position += new Vector3(0, -0.7f, 0) * Time.deltaTime;
         } 
         else
         {
             //...otherwise open it at a rate of 90 degrees per second
-            transform.Rotate(transform.forward, -0.7f * Time.deltaTime);
+            transform.position += new Vector3(0, 0.7f, 0) * Time.deltaTime;
         }
 
 
         //If it has been 1 second since we started
-        if (Time.time - startTime > 1f)
+        if (Time.time - startTime > 0.1f)
         {
             //De-enable the script
             enabled = false;
         }
-		Mathf.Clamp(Zaxis, minZ, maxZ);
+		Mathf.Clamp(transform.forward.y, minZ, maxZ);
     }
 }

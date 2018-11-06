@@ -23,12 +23,14 @@ public class CameraController : MonoBehaviour {
 	void checkinteraction() {
 		Vector3 origin = cam.transform.position;
 		Vector3 direction = cam.transform.forward;
-		float distance = 4f;
+		float distance = 10f;
 		RaycastHit hit;
 		messagetext.text = "";
 		if (Physics.Raycast(origin, direction, out hit, distance)) {
+			Debug.DrawRay(cam.transform.position, cam.transform.TransformDirection(Vector3.forward) * 4f, Color.white);
 			 if (hit.transform.tag == "button") {
 				 messagetext.text = "Press E to interact";
+				 Debug.Log("Ray hit button");
 				 if (Input.GetKeyDown(KeyCode.E)) {
 					 hit.transform.gameObject.GetComponent<ButtonPush>().enabled = true;
 				 }
@@ -37,7 +39,6 @@ public class CameraController : MonoBehaviour {
 	}
 	void Start () {
 		messagetext = GameObject.Find("Canvas/Text").GetComponent<Text>();
-		cam = Camera.main;
 		offset = cam.transform.position - Player.transform.position;
 		Cursor.lockState = CursorLockMode.Locked;
 		if (Input.GetKey(KeyCode.Escape)) {

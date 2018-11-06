@@ -366,11 +366,24 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 490927985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &490927990
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490927985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.015
+  m_Height: 0.019999994
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.013199417}
 --- !u!1 &581164674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: d127d36ee0015445e9844ef1fe3d4d95,
@@ -551,6 +564,17 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!114 &959939283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 959939280}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &968550033 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100030, guid: d127d36ee0015445e9844ef1fe3d4d95,
@@ -635,17 +659,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b4510244bdb34499afa69154b27f7ca, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: button
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 2b4510244bdb34499afa69154b27f7ca, type: 3}
       propertyPath: m_TagString
-      value: button
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b4510244bdb34499afa69154b27f7ca, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 2b4510244bdb34499afa69154b27f7ca, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2b4510244bdb34499afa69154b27f7ca, type: 3}
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
@@ -993,7 +1021,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
