@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 6370d905b37204a0daf9290bc4393a0b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BIG_nametag1
+    100002: button_up18
+    100004: button_up18 1
+    100006: button_up19
+    100008: button_up19 1
+    100010: button_up20
+    100012: button_up20 1
+    100014: button_up21
+    100016: button_up21 1
+    100018: button_up22
+    100020: button_up22 1
+    100022: button_up23
+    100024: button_up23 1
+    100026: button_up24
+    100028: button_up24 1
+    100030: button_up25
+    100032: button_up25 1
+    100034: group3
+    100036: group4
+    100038: MITTARI2
+    100040: MITTARI3
+    100042: MITTARI4
+    100044: MITTARI5
+    100046: MITTARI5 1
+    100048: MITTARI6
+    100050: MITTARI6 1
+    100052: MITTARI7
+    100054: MITTARI7 1
+    100056: Mittari_buttons
+    100058: Mittari_buttons1
+    100060: mittari_kehys_2
+    100062: mittari_kehys_2 1
+    100064: mittari_kehys_2 2
+    100066: mittari_kehys_2 3
+    100068: mittari_kehys_2 4
+    100070: mittari_kehys_2 5
+    100072: mittari_kehys_2 6
+    100074: mittari_kehys_2 7
+    100076: mittari_kehys_2 8
+    100078: Mittari_panel
+    100080: Mittari_panel1
+    100082: Mittari_panel1 1
+    100084: mittari_plate1
+    100086: mittari_plate2
+    100088: mittari_plate3
+    100090: mittari_sisa_2
+    100092: mittari_sisa_2 1
+    100094: mittari_sisa_2 2
+    100096: mittari_sisa_2 3
+    100098: mittari_sisa_2 4
+    100100: mittari_sisa_2 5
+    100102: mittari_sisa_2 6
+    100104: mittari_sisa_2 7
+    100106: mittari_sisa_2 8
+    100108: //RootNode
+    100110: MITTARIT_R
+    100112: viisari_2
+    100114: viisari_2 1
+    100116: viisari_2 2
+    100118: viisari_2 3
+    100120: viisari_2 4
+    100122: viisari_2 5
+    100124: viisari_2 6
+    100126: viisari_2 7
+    100128: viisari_2 8
+    100130: vipu1
+    100132: vipu1_down
+    100134: vipu2
+    100136: vipu_plate
+    400000: BIG_nametag1
+    400002: button_up18
+    400004: button_up18 1
+    400006: button_up19
+    400008: button_up19 1
+    400010: button_up20
+    400012: button_up20 1
+    400014: button_up21
+    400016: button_up21 1
+    400018: button_up22
+    400020: button_up22 1
+    400022: button_up23
+    400024: button_up23 1
+    400026: button_up24
+    400028: button_up24 1
+    400030: button_up25
+    400032: button_up25 1
+    400034: group3
+    400036: group4
+    400038: MITTARI2
+    400040: MITTARI3
+    400042: MITTARI4
+    400044: MITTARI5
+    400046: MITTARI5 1
+    400048: MITTARI6
+    400050: MITTARI6 1
+    400052: MITTARI7
+    400054: MITTARI7 1
+    400056: Mittari_buttons
+    400058: Mittari_buttons1
+    400060: mittari_kehys_2
+    400062: mittari_kehys_2 1
+    400064: mittari_kehys_2 2
+    400066: mittari_kehys_2 3
+    400068: mittari_kehys_2 4
+    400070: mittari_kehys_2 5
+    400072: mittari_kehys_2 6
+    400074: mittari_kehys_2 7
+    400076: mittari_kehys_2 8
+    400078: Mittari_panel
+    400080: Mittari_panel1
+    400082: Mittari_panel1 1
+    400084: mittari_plate1
+    400086: mittari_plate2
+    400088: mittari_plate3
+    400090: mittari_sisa_2
+    400092: mittari_sisa_2 1
+    400094: mittari_sisa_2 2
+    400096: mittari_sisa_2 3
+    400098: mittari_sisa_2 4
+    400100: mittari_sisa_2 5
+    400102: mittari_sisa_2 6
+    400104: mittari_sisa_2 7
+    400106: mittari_sisa_2 8
+    400108: //RootNode
+    400110: MITTARIT_R
+    400112: viisari_2
+    400114: viisari_2 1
+    400116: viisari_2 2
+    400118: viisari_2 3
+    400120: viisari_2 4
+    400122: viisari_2 5
+    400124: viisari_2 6
+    400126: viisari_2 7
+    400128: viisari_2 8
+    400130: vipu1
+    400132: vipu1_down
+    400134: vipu2
+    400136: vipu_plate
+    2100000: lambert1
+    2100002: aiStandardSurface3
+    2100004: aiStandardSurface2
+    2300000: BIG_nametag1
+    2300002: button_up18
+    2300004: button_up18 1
+    2300006: button_up19
+    2300008: button_up19 1
+    2300010: button_up20
+    2300012: button_up20 1
+    2300014: button_up21
+    2300016: button_up21 1
+    2300018: button_up22
+    2300020: button_up22 1
+    2300022: button_up23
+    2300024: button_up23 1
+    2300026: button_up24
+    2300028: button_up24 1
+    2300030: button_up25
+    2300032: button_up25 1
+    2300034: Mittari_buttons
+    2300036: Mittari_buttons1
+    2300038: mittari_kehys_2
+    2300040: mittari_kehys_2 1
+    2300042: mittari_kehys_2 2
+    2300044: mittari_kehys_2 3
+    2300046: mittari_kehys_2 4
+    2300048: mittari_kehys_2 5
+    2300050: mittari_kehys_2 6
+    2300052: mittari_kehys_2 7
+    2300054: mittari_kehys_2 8
+    2300056: Mittari_panel
+    2300058: Mittari_panel1
+    2300060: Mittari_panel1 1
+    2300062: mittari_plate1
+    2300064: mittari_plate2
+    2300066: mittari_plate3
+    2300068: mittari_sisa_2
+    2300070: mittari_sisa_2 1
+    2300072: mittari_sisa_2 2
+    2300074: mittari_sisa_2 3
+    2300076: mittari_sisa_2 4
+    2300078: mittari_sisa_2 5
+    2300080: mittari_sisa_2 6
+    2300082: mittari_sisa_2 7
+    2300084: mittari_sisa_2 8
+    2300086: viisari_2
+    2300088: viisari_2 1
+    2300090: viisari_2 2
+    2300092: viisari_2 3
+    2300094: viisari_2 4
+    2300096: viisari_2 5
+    2300098: viisari_2 6
+    2300100: viisari_2 7
+    2300102: viisari_2 8
+    2300104: vipu1
+    2300106: vipu1_down
+    2300108: vipu_plate
+    3300000: BIG_nametag1
+    3300002: button_up18
+    3300004: button_up18 1
+    3300006: button_up19
+    3300008: button_up19 1
+    3300010: button_up20
+    3300012: button_up20 1
+    3300014: button_up21
+    3300016: button_up21 1
+    3300018: button_up22
+    3300020: button_up22 1
+    3300022: button_up23
+    3300024: button_up23 1
+    3300026: button_up24
+    3300028: button_up24 1
+    3300030: button_up25
+    3300032: button_up25 1
+    3300034: Mittari_buttons
+    3300036: Mittari_buttons1
+    3300038: mittari_kehys_2
+    3300040: mittari_kehys_2 1
+    3300042: mittari_kehys_2 2
+    3300044: mittari_kehys_2 3
+    3300046: mittari_kehys_2 4
+    3300048: mittari_kehys_2 5
+    3300050: mittari_kehys_2 6
+    3300052: mittari_kehys_2 7
+    3300054: mittari_kehys_2 8
+    3300056: Mittari_panel
+    3300058: Mittari_panel1
+    3300060: Mittari_panel1 1
+    3300062: mittari_plate1
+    3300064: mittari_plate2
+    3300066: mittari_plate3
+    3300068: mittari_sisa_2
+    3300070: mittari_sisa_2 1
+    3300072: mittari_sisa_2 2
+    3300074: mittari_sisa_2 3
+    3300076: mittari_sisa_2 4
+    3300078: mittari_sisa_2 5
+    3300080: mittari_sisa_2 6
+    3300082: mittari_sisa_2 7
+    3300084: mittari_sisa_2 8
+    3300086: viisari_2
+    3300088: viisari_2 1
+    3300090: viisari_2 2
+    3300092: viisari_2 3
+    3300094: viisari_2 4
+    3300096: viisari_2 5
+    3300098: viisari_2 6
+    3300100: viisari_2 7
+    3300102: viisari_2 8
+    3300104: vipu1
+    3300106: vipu1_down
+    3300108: vipu_plate
+    4300000: Mittari_panel
+    4300002: viisari_2
+    4300004: mittari_sisa_2
+    4300006: mittari_kehys_2
+    4300008: viisari_2
+    4300010: mittari_sisa_2
+    4300012: mittari_kehys_2
+    4300014: viisari_2
+    4300016: mittari_sisa_2
+    4300018: mittari_kehys_2
+    4300020: viisari_2
+    4300022: mittari_sisa_2
+    4300024: mittari_kehys_2
+    4300026: viisari_2
+    4300028: mittari_sisa_2
+    4300030: mittari_kehys_2
+    4300032: viisari_2
+    4300034: mittari_sisa_2
+    4300036: mittari_kehys_2
+    4300038: Mittari_panel1
+    4300040: viisari_2
+    4300042: mittari_sisa_2
+    4300044: mittari_kehys_2
+    4300046: viisari_2
+    4300048: mittari_sisa_2
+    4300050: mittari_kehys_2
+    4300052: viisari_2
+    4300054: mittari_sisa_2
+    4300056: mittari_kehys_2
+    4300058: Mittari_panel1
+    4300060: Mittari_buttons
+    4300062: button_up18
+    4300064: button_up19
+    4300066: button_up20
+    4300068: button_up21
+    4300070: button_up22
+    4300072: button_up23
+    4300074: button_up24
+    4300076: button_up25
+    4300078: mittari_plate1
+    4300080: Mittari_buttons1
+    4300082: button_up18
+    4300084: button_up19
+    4300086: button_up20
+    4300088: button_up21
+    4300090: button_up22
+    4300092: button_up23
+    4300094: button_up24
+    4300096: button_up25
+    4300098: BIG_nametag1
+    4300100: vipu1_down
+    4300102: vipu1
+    4300104: vipu_plate
+    4300106: mittari_plate2
+    4300108: mittari_plate3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
