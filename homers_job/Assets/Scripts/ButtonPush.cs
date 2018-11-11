@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class ButtonPush : MonoBehaviour {
 
-    float startTime;
-    bool isPushed = false;
-	float Zaxis;
-	float minZ = -0.7f;
-	float maxZ = 0f;
-
+    public Animator anim;
 	void start() {
+        anim = GetComponent<Animator>();
 	}
 
     // When the Script is enabled
