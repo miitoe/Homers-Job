@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 0ea3c00046f284dcd84df5bce97c6a7d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: MUISTITAULU
+    100002: muistitaulu
+    100004: //RootNode
+    100006: pin
+    100008: pin1
+    100010: pin2
+    100012: pin3
+    100014: pin4
+    100016: pin5
+    100018: pin6
+    100020: pin7
+    100022: pin8
+    100024: Post_it
+    100026: Post_it1
+    100028: Post_it2
+    100030: Post_it3
+    100032: Post_it4
+    100034: poster_1
+    100036: poster_2
+    100038: poster_3
+    400000: MUISTITAULU
+    400002: muistitaulu
+    400004: //RootNode
+    400006: pin
+    400008: pin1
+    400010: pin2
+    400012: pin3
+    400014: pin4
+    400016: pin5
+    400018: pin6
+    400020: pin7
+    400022: pin8
+    400024: Post_it
+    400026: Post_it1
+    400028: Post_it2
+    400030: Post_it3
+    400032: Post_it4
+    400034: poster_1
+    400036: poster_2
+    400038: poster_3
+    2100000: lambert1
+    2300000: muistitaulu
+    2300002: pin
+    2300004: pin1
+    2300006: pin2
+    2300008: pin3
+    2300010: pin4
+    2300012: pin5
+    2300014: pin6
+    2300016: pin7
+    2300018: pin8
+    2300020: Post_it
+    2300022: Post_it1
+    2300024: Post_it2
+    2300026: Post_it3
+    2300028: Post_it4
+    2300030: poster_1
+    2300032: poster_2
+    2300034: poster_3
+    3300000: muistitaulu
+    3300002: pin
+    3300004: pin1
+    3300006: pin2
+    3300008: pin3
+    3300010: pin4
+    3300012: pin5
+    3300014: pin6
+    3300016: pin7
+    3300018: pin8
+    3300020: Post_it
+    3300022: Post_it1
+    3300024: Post_it2
+    3300026: Post_it3
+    3300028: Post_it4
+    3300030: poster_1
+    3300032: poster_2
+    3300034: poster_3
+    4300000: muistitaulu
+    4300002: poster_2
+    4300004: poster_3
+    4300006: poster_1
+    4300008: pin
+    4300010: pin1
+    4300012: pin2
+    4300014: pin3
+    4300016: pin4
+    4300018: pin5
+    4300020: pin6
+    4300022: pin7
+    4300024: pin8
+    4300026: Post_it
+    4300028: Post_it1
+    4300030: Post_it2
+    4300032: Post_it3
+    4300034: Post_it4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
