@@ -32,9 +32,14 @@ ModelImporter:
     4300004: building
     4300006: window_outside2
     4300008: window2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface5
+    second: {fileID: 2100000, guid: 703f7fa58d7224e9eb41a196a02a07d7, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

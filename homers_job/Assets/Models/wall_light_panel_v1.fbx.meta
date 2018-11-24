@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 963bcf1dcfa8c4fb2a4b60b15e974dce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: LAMPPU10
+    100002: LAMPPU11
+    100004: LAMPPU8
+    100006: LAMPPU9
+    100008: lamppu_3
+    100010: lamppu_3 1
+    100012: lamppu_3 2
+    100014: lamppu_3 3
+    100016: lamppu_plate_3
+    100018: lamppu_plate_3 1
+    100020: lamppu_plate_3 2
+    100022: lamppu_plate_3 3
+    100024: lappu_alusta_3
+    100026: lappu_alusta_3 1
+    100028: lappu_alusta_3 2
+    100030: lappu_alusta_3 3
+    100032: lights_panel1
+    100034: wall_light_panel
+    100036: //RootNode
+    400000: LAMPPU10
+    400002: LAMPPU11
+    400004: LAMPPU8
+    400006: LAMPPU9
+    400008: lamppu_3
+    400010: lamppu_3 1
+    400012: lamppu_3 2
+    400014: lamppu_3 3
+    400016: lamppu_plate_3
+    400018: lamppu_plate_3 1
+    400020: lamppu_plate_3 2
+    400022: lamppu_plate_3 3
+    400024: lappu_alusta_3
+    400026: lappu_alusta_3 1
+    400028: lappu_alusta_3 2
+    400030: lappu_alusta_3 3
+    400032: lights_panel1
+    400034: wall_light_panel
+    400036: //RootNode
+    2100000: lambert1
+    2100002: aiStandardSurface2
+    2300000: lamppu_3
+    2300002: lamppu_3 1
+    2300004: lamppu_3 2
+    2300006: lamppu_3 3
+    2300008: lamppu_plate_3
+    2300010: lamppu_plate_3 1
+    2300012: lamppu_plate_3 2
+    2300014: lamppu_plate_3 3
+    2300016: lappu_alusta_3
+    2300018: lappu_alusta_3 1
+    2300020: lappu_alusta_3 2
+    2300022: lappu_alusta_3 3
+    2300024: lights_panel1
+    3300000: lamppu_3
+    3300002: lamppu_3 1
+    3300004: lamppu_3 2
+    3300006: lamppu_3 3
+    3300008: lamppu_plate_3
+    3300010: lamppu_plate_3 1
+    3300012: lamppu_plate_3 2
+    3300014: lamppu_plate_3 3
+    3300016: lappu_alusta_3
+    3300018: lappu_alusta_3 1
+    3300020: lappu_alusta_3 2
+    3300022: lappu_alusta_3 3
+    3300024: lights_panel1
+    4300000: lights_panel1
+    4300002: lamppu_3
+    4300004: lappu_alusta_3
+    4300006: lamppu_plate_3
+    4300008: lamppu_3
+    4300010: lappu_alusta_3
+    4300012: lamppu_plate_3
+    4300014: lamppu_3
+    4300016: lappu_alusta_3
+    4300018: lamppu_plate_3
+    4300020: lamppu_3
+    4300022: lappu_alusta_3
+    4300024: lamppu_plate_3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: 703f7fa58d7224e9eb41a196a02a07d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 703f7fa58d7224e9eb41a196a02a07d7, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

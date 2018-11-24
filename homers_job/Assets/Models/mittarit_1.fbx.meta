@@ -311,7 +311,7 @@ ModelImporter:
     4300108: mittari_plate3
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

@@ -16,9 +16,14 @@ ModelImporter:
     3300002: triangle_2
     4300000: triangle_2
     4300002: triangle_1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 06ca692ef4fd54a64ac95febc02a3b11, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
