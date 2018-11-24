@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: edae9d99ed6344b13a99fe244a5875ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BIG_nametag_2
+    100002: Button_goup_4
+    100004: button_low2
+    100006: button_up10
+    100008: button_up10 1
+    100010: button_up11
+    100012: button_up11 1
+    100014: button_up12
+    100016: button_up12 1
+    100018: button_up13
+    100020: button_up13 1
+    100022: button_up14
+    100024: button_up14 1
+    100026: button_up15
+    100028: button_up15 1
+    100030: button_up16
+    100032: button_up16 1
+    100034: button_up17
+    100036: button_up17 1
+    100038: button_up2
+    100040: button_up2 1
+    100042: button_up3
+    100044: button_up3 1
+    100046: button_up4
+    100048: button_up4 1
+    100050: button_up5
+    100052: button_up5 1
+    100054: button_up6
+    100056: button_up6 1
+    100058: button_up7
+    100060: button_up7 1
+    100062: button_up8
+    100064: button_up8 1
+    100066: button_up9
+    100068: button_up9 1
+    100070: group1
+    100072: group2
+    100074: LAMPPU5
+    100076: LAMPPU6
+    100078: LAMPPU7
+    100080: lamppu_1
+    100082: lamppu_1 1
+    100084: lamppu_1 2
+    100086: lamppu_1 3
+    100088: lappu_alusta_1
+    100090: lappu_alusta_1 1
+    100092: lappu_alusta_1 2
+    100094: mittari_plate4
+    100096: mittari_plate4 1
+    100098: mittari_plate4 2
+    100100: mittari_plate4 3
+    100102: //RootNode
+    100104: vipu1
+    100106: vipu1 1
+    100108: vipu1 2
+    100110: vipu1 3
+    100112: vipu1_down
+    100114: vipu1_down 1
+    100116: vipu1_down 2
+    100118: vipu1_down 3
+    100120: vipu_new_2
+    100122: vipu_new_3
+    100124: vipu_new_4
+    100126: vipu_new_5
+    400000: BIG_nametag_2
+    400002: Button_goup_4
+    400004: button_low2
+    400006: button_up10
+    400008: button_up10 1
+    400010: button_up11
+    400012: button_up11 1
+    400014: button_up12
+    400016: button_up12 1
+    400018: button_up13
+    400020: button_up13 1
+    400022: button_up14
+    400024: button_up14 1
+    400026: button_up15
+    400028: button_up15 1
+    400030: button_up16
+    400032: button_up16 1
+    400034: button_up17
+    400036: button_up17 1
+    400038: button_up2
+    400040: button_up2 1
+    400042: button_up3
+    400044: button_up3 1
+    400046: button_up4
+    400048: button_up4 1
+    400050: button_up5
+    400052: button_up5 1
+    400054: button_up6
+    400056: button_up6 1
+    400058: button_up7
+    400060: button_up7 1
+    400062: button_up8
+    400064: button_up8 1
+    400066: button_up9
+    400068: button_up9 1
+    400070: group1
+    400072: group2
+    400074: LAMPPU5
+    400076: LAMPPU6
+    400078: LAMPPU7
+    400080: lamppu_1
+    400082: lamppu_1 1
+    400084: lamppu_1 2
+    400086: lamppu_1 3
+    400088: lappu_alusta_1
+    400090: lappu_alusta_1 1
+    400092: lappu_alusta_1 2
+    400094: mittari_plate4
+    400096: mittari_plate4 1
+    400098: mittari_plate4 2
+    400100: mittari_plate4 3
+    400102: //RootNode
+    400104: vipu1
+    400106: vipu1 1
+    400108: vipu1 2
+    400110: vipu1 3
+    400112: vipu1_down
+    400114: vipu1_down 1
+    400116: vipu1_down 2
+    400118: vipu1_down 3
+    400120: vipu_new_2
+    400122: vipu_new_3
+    400124: vipu_new_4
+    400126: vipu_new_5
+    2100000: lambert1
+    2100002: aiStandardSurface2
+    2300000: BIG_nametag_2
+    2300002: button_low2
+    2300004: button_up10
+    2300006: button_up10 1
+    2300008: button_up11
+    2300010: button_up11 1
+    2300012: button_up12
+    2300014: button_up12 1
+    2300016: button_up13
+    2300018: button_up13 1
+    2300020: button_up14
+    2300022: button_up14 1
+    2300024: button_up15
+    2300026: button_up15 1
+    2300028: button_up16
+    2300030: button_up16 1
+    2300032: button_up17
+    2300034: button_up17 1
+    2300036: button_up2
+    2300038: button_up2 1
+    2300040: button_up3
+    2300042: button_up3 1
+    2300044: button_up4
+    2300046: button_up4 1
+    2300048: button_up5
+    2300050: button_up5 1
+    2300052: button_up6
+    2300054: button_up6 1
+    2300056: button_up7
+    2300058: button_up7 1
+    2300060: button_up8
+    2300062: button_up8 1
+    2300064: button_up9
+    2300066: button_up9 1
+    2300068: lamppu_1
+    2300070: lamppu_1 1
+    2300072: lamppu_1 2
+    2300074: lamppu_1 3
+    2300076: lappu_alusta_1
+    2300078: lappu_alusta_1 1
+    2300080: lappu_alusta_1 2
+    2300082: mittari_plate4
+    2300084: mittari_plate4 1
+    2300086: mittari_plate4 2
+    2300088: mittari_plate4 3
+    2300090: vipu1
+    2300092: vipu1 1
+    2300094: vipu1 2
+    2300096: vipu1 3
+    2300098: vipu1_down
+    2300100: vipu1_down 1
+    2300102: vipu1_down 2
+    2300104: vipu1_down 3
+    3300000: BIG_nametag_2
+    3300002: button_low2
+    3300004: button_up10
+    3300006: button_up10 1
+    3300008: button_up11
+    3300010: button_up11 1
+    3300012: button_up12
+    3300014: button_up12 1
+    3300016: button_up13
+    3300018: button_up13 1
+    3300020: button_up14
+    3300022: button_up14 1
+    3300024: button_up15
+    3300026: button_up15 1
+    3300028: button_up16
+    3300030: button_up16 1
+    3300032: button_up17
+    3300034: button_up17 1
+    3300036: button_up2
+    3300038: button_up2 1
+    3300040: button_up3
+    3300042: button_up3 1
+    3300044: button_up4
+    3300046: button_up4 1
+    3300048: button_up5
+    3300050: button_up5 1
+    3300052: button_up6
+    3300054: button_up6 1
+    3300056: button_up7
+    3300058: button_up7 1
+    3300060: button_up8
+    3300062: button_up8 1
+    3300064: button_up9
+    3300066: button_up9 1
+    3300068: lamppu_1
+    3300070: lamppu_1 1
+    3300072: lamppu_1 2
+    3300074: lamppu_1 3
+    3300076: lappu_alusta_1
+    3300078: lappu_alusta_1 1
+    3300080: lappu_alusta_1 2
+    3300082: mittari_plate4
+    3300084: mittari_plate4 1
+    3300086: mittari_plate4 2
+    3300088: mittari_plate4 3
+    3300090: vipu1
+    3300092: vipu1 1
+    3300094: vipu1 2
+    3300096: vipu1 3
+    3300098: vipu1_down
+    3300100: vipu1_down 1
+    3300102: vipu1_down 2
+    3300104: vipu1_down 3
+    4300000: vipu1_down
+    4300002: mittari_plate4
+    4300004: vipu1
+    4300006: vipu1_down
+    4300008: mittari_plate4
+    4300010: vipu1
+    4300012: vipu1_down
+    4300014: mittari_plate4
+    4300016: vipu1
+    4300018: vipu1_down
+    4300020: mittari_plate4
+    4300022: vipu1
+    4300024: lamppu_1
+    4300026: lamppu_1
+    4300028: lappu_alusta_1
+    4300030: lamppu_1
+    4300032: lappu_alusta_1
+    4300034: lamppu_1
+    4300036: lappu_alusta_1
+    4300038: BIG_nametag_2
+    4300040: button_up2
+    4300042: button_up3
+    4300044: button_up4
+    4300046: button_up5
+    4300048: button_up6
+    4300050: button_up7
+    4300052: button_up8
+    4300054: button_up9
+    4300056: button_up10
+    4300058: button_up11
+    4300060: button_up12
+    4300062: button_up13
+    4300064: button_up14
+    4300066: button_up15
+    4300068: button_up16
+    4300070: button_up17
+    4300072: button_up2
+    4300074: button_up3
+    4300076: button_up4
+    4300078: button_up5
+    4300080: button_up6
+    4300082: button_up7
+    4300084: button_up8
+    4300086: button_up9
+    4300088: button_up10
+    4300090: button_up11
+    4300092: button_up12
+    4300094: button_up13
+    4300096: button_up14
+    4300098: button_up15
+    4300100: button_up16
+    4300102: button_up17
+    4300104: button_low2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
