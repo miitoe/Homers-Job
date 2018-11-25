@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: acb4bc31f659e4fc0a970c597d92b0c1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mittari
+    100004: mittari3
+    100006: mittarikehys
+    100008: mittarikehys 1
+    100010: mittaritaulu
+    100012: mittaritaulu 1
+    100014: pipe
+    100016: pipe1
+    100018: pipe10
+    100020: pipe11
+    100022: pipe12
+    100024: pipe13
+    100026: pipe14
+    100028: pipe15
+    100030: pipe16
+    100032: pipe17
+    100034: pipe18
+    100036: pipe19
+    100038: pipe2
+    100040: pipe20
+    100042: pipe21
+    100044: pipe22
+    100046: pipe23
+    100048: pipe3
+    100050: pipe4
+    100052: pipe5
+    100054: pipe6
+    100056: pipe7
+    100058: pipe8
+    100060: pipe9
+    100062: pipe_bg
+    100064: silo
+    100066: silo6
+    100068: silo7
+    100070: silo8
+    100072: silo9
+    100074: silos
+    100076: viisari_1
+    100078: viisari_1 1
+    400000: //RootNode
+    400002: mittari
+    400004: mittari3
+    400006: mittarikehys
+    400008: mittarikehys 1
+    400010: mittaritaulu
+    400012: mittaritaulu 1
+    400014: pipe
+    400016: pipe1
+    400018: pipe10
+    400020: pipe11
+    400022: pipe12
+    400024: pipe13
+    400026: pipe14
+    400028: pipe15
+    400030: pipe16
+    400032: pipe17
+    400034: pipe18
+    400036: pipe19
+    400038: pipe2
+    400040: pipe20
+    400042: pipe21
+    400044: pipe22
+    400046: pipe23
+    400048: pipe3
+    400050: pipe4
+    400052: pipe5
+    400054: pipe6
+    400056: pipe7
+    400058: pipe8
+    400060: pipe9
+    400062: pipe_bg
+    400064: silo
+    400066: silo6
+    400068: silo7
+    400070: silo8
+    400072: silo9
+    400074: silos
+    400076: viisari_1
+    400078: viisari_1 1
+    2100000: lambert1
+    2300000: //RootNode
+    2300002: mittarikehys
+    2300004: mittarikehys 1
+    2300006: mittaritaulu
+    2300008: mittaritaulu 1
+    2300010: pipe
+    2300012: pipe1
+    2300014: pipe10
+    2300016: pipe11
+    2300018: pipe12
+    2300020: pipe13
+    2300022: pipe14
+    2300024: pipe15
+    2300026: pipe16
+    2300028: pipe17
+    2300030: pipe18
+    2300032: pipe19
+    2300034: pipe2
+    2300036: pipe20
+    2300038: pipe21
+    2300040: pipe22
+    2300042: pipe23
+    2300044: pipe3
+    2300046: pipe4
+    2300048: pipe5
+    2300050: pipe6
+    2300052: pipe7
+    2300054: pipe8
+    2300056: pipe9
+    2300058: silo
+    2300060: silo6
+    2300062: silo7
+    2300064: silo8
+    2300066: silo9
+    2300068: viisari_1
+    2300070: viisari_1 1
+    3300000: //RootNode
+    3300002: mittarikehys
+    3300004: mittarikehys 1
+    3300006: mittaritaulu
+    3300008: mittaritaulu 1
+    3300010: pipe
+    3300012: pipe1
+    3300014: pipe10
+    3300016: pipe11
+    3300018: pipe12
+    3300020: pipe13
+    3300022: pipe14
+    3300024: pipe15
+    3300026: pipe16
+    3300028: pipe17
+    3300030: pipe18
+    3300032: pipe19
+    3300034: pipe2
+    3300036: pipe20
+    3300038: pipe21
+    3300040: pipe22
+    3300042: pipe23
+    3300044: pipe3
+    3300046: pipe4
+    3300048: pipe5
+    3300050: pipe6
+    3300052: pipe7
+    3300054: pipe8
+    3300056: pipe9
+    3300058: silo
+    3300060: silo6
+    3300062: silo7
+    3300064: silo8
+    3300066: silo9
+    3300068: viisari_1
+    3300070: viisari_1 1
+    4300000: lab
+    4300002: pipe
+    4300004: pipe5
+    4300006: pipe6
+    4300008: pipe1
+    4300010: pipe7
+    4300012: pipe8
+    4300014: pipe9
+    4300016: pipe10
+    4300018: pipe11
+    4300020: pipe12
+    4300022: pipe13
+    4300024: pipe14
+    4300026: pipe15
+    4300028: pipe16
+    4300030: pipe17
+    4300032: pipe18
+    4300034: pipe19
+    4300036: pipe20
+    4300038: pipe21
+    4300040: pipe22
+    4300042: pipe23
+    4300044: silo6
+    4300046: silo7
+    4300048: silo8
+    4300050: silo9
+    4300052: pipe2
+    4300054: pipe3
+    4300056: pipe4
+    4300058: silo
+    4300060: viisari_1
+    4300062: mittarikehys
+    4300064: mittaritaulu
+    4300066: viisari_1
+    4300068: mittarikehys
+    4300070: mittaritaulu
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
