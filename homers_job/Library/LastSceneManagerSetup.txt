@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Jere_code_scene.unity
+- path: Assets/Scenes/Another_test_scene.unity
   isLoaded: 1
   isActive: 1

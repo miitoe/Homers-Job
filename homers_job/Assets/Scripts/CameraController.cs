@@ -32,7 +32,8 @@ public class CameraController : MonoBehaviour {
 				 messagetext.text = "Press E to interact";
 				 Debug.Log("Ray hit button");
 				 if (Input.GetKeyDown(KeyCode.E)) {
-					 hit.transform.gameObject.GetComponent<Animator>().SetTrigger("isPushed");
+					 //hit.transform.gameObject.GetComponent<Animator>().SetTrigger("isPushed");
+					 hit.transform.gameObject.GetComponent<ButtonPush>().isPressed = true;
 				 }
 			 }
 		}

@@ -1,23 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ButtonPush : MonoBehaviour {
 
-    public Animator anim;
-    public bool isPushed = false;
-
+    public bool isLit;
+    public bool isBlinking;
+    public bool isPressed;
+    public bool isEnabled;
+    public Animator Anim;
 	void start() {
-        anim = GetComponent<Animator>();
+        Anim = GetComponent<Animator>();
+        isLit = false;
+        isBlinking = false;
+        isPressed = false;
 	}
 
     // When the Script is enabled
    
     void Update () {
-        if (isPushed == true) {
-            Debug.Log("Button was pushed");
-            anim.SetTrigger("isPushed");
-            isPushed = false;
+        if (isPressed == true) {
+            Anim.SetTrigger("isPushed");
+            Debug.Log("Button was pressed");
+            isEnabled = !isEnabled;
+            Debug.Log("Button toggled");
+            isPressed = false;
         }
-    }
+        if (isEnabled == true) {
+            isLit = true;
+            Anim.SetBool("isLit", true);
+        }
+        else {
+            isLit = false;
+            Anim.SetBool("isLit", false);
+        }
+    }    
 }

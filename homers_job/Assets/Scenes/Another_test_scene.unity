@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17609245, g: 0.22037911, b: 0.30270624, a: 1}
+  m_IndirectSpecularColor: {r: 0.17609254, g: 0.22037937, b: 0.30270714, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2263,6 +2263,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1029373070}
     m_Modifications:
+    - target: {fileID: 23902080896491206, guid: 9743e46f173484ad7b4cb2b92bcba10d,
+        type: 2}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4149079512173866, guid: 9743e46f173484ad7b4cb2b92bcba10d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.2985946
@@ -2307,6 +2312,20 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23902080896491206, guid: 9743e46f173484ad7b4cb2b92bcba10d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0fdeb54de0c0445b0a17f4ee547fc7c4, type: 2}
+    - target: {fileID: 1385389102601120, guid: 9743e46f173484ad7b4cb2b92bcba10d, type: 2}
+      propertyPath: m_Name
+      value: button_up_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23902080896491206, guid: 9743e46f173484ad7b4cb2b92bcba10d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90b6c3c40cdd442c7bd132e59ce78a7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9743e46f173484ad7b4cb2b92bcba10d, type: 2}
   m_IsPrefabAsset: 0
@@ -3817,6 +3836,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1451194290650150, guid: e46f771b5670f4c5483fa17eace7cee0,
     type: 2}
   m_PrefabInternal: {fileID: 477079402}
+--- !u!95 &234668812
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 234668811}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39fa5b89b35b8e84abac1d755423347f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &234668815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3831,6 +3868,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 2371ed9d897e744fabf467be9935415b, type: 3}
+--- !u!114 &234668817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 234668811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 234668812}
 --- !u!1001 &237055883
 Prefab:
   m_ObjectHideFlags: 0
@@ -3878,6 +3931,11 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23912770780518926, guid: 71e65f77653294c689a6bd798c48df70,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9db8c25a29a541ee9dee2c2d85eea62, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e65f77653294c689a6bd798c48df70, type: 2}
   m_IsPrefabAsset: 0
@@ -5451,6 +5509,11 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23494946957392950, guid: e55f769a2b5d348309f6ff7bc5c58ca2,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9af3683aa241342cc8de56762e53d77a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e55f769a2b5d348309f6ff7bc5c58ca2, type: 2}
   m_IsPrefabAsset: 0
@@ -6305,6 +6368,11 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23235854316684508, guid: e46f771b5670f4c5483fa17eace7cee0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a0c34be9660942b396139f2f57de44d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46f771b5670f4c5483fa17eace7cee0, type: 2}
   m_IsPrefabAsset: 0
@@ -8624,6 +8692,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1902294865705092, guid: 71c1bb18c05b942aca927e2a821ad63c,
     type: 2}
   m_PrefabInternal: {fileID: 1096163053}
+--- !u!95 &707898172
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707898171}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cce393ac8ce42fb4e8f210d2dd0018a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &707898175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8638,6 +8724,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 26a0193fe27734ef287cdaa635545122, type: 3}
+--- !u!114 &707898177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707898171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 707898172}
 --- !u!1 &710189957
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,6 +14033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1029373070}
+  - component: {fileID: 1029373071}
   m_Layer: 0
   m_Name: PUZZLE
   m_TagString: Untagged
@@ -13963,6 +14066,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1029373071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029373069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05bf370d7b81f12429a209ed5fc92b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Buttons: []
+  puzzle_start: 0000000000000000000000000000000000000000000000000000000000000000
+  puzzle_current: 
+  puzzle_solution: 0000000000000000000000000000000000000000000000000000000000000000
+  solution_btn_count: 0
 --- !u!1001 &1032828569
 Prefab:
   m_ObjectHideFlags: 0
@@ -14760,6 +14879,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1103199827636446, guid: 6c46df95495f54693b83c2c6d57a77f6,
     type: 2}
   m_PrefabInternal: {fileID: 1924989352}
+--- !u!95 &1068865488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068865487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 459f0defa154bab4db77ebf92b71eda9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1068865491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14774,6 +14911,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: caf398412bfe74d7d989feb46d14a6d4, type: 3}
+--- !u!114 &1068865493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068865487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1068865488}
 --- !u!1 &1077178388
 GameObject:
   m_ObjectHideFlags: 0
@@ -15094,6 +15247,11 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23406934837290700, guid: 71c1bb18c05b942aca927e2a821ad63c,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b0871879c603401d829a4a3b14dd815, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71c1bb18c05b942aca927e2a821ad63c, type: 2}
   m_IsPrefabAsset: 0
@@ -15319,6 +15477,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1502096119878600, guid: 986018609aace41d9a8be7415288bb19,
     type: 2}
   m_PrefabInternal: {fileID: 1174961530}
+--- !u!95 &1106897146
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106897144}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71f4c782cdea7ab45a9528db27247bbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1106897148
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15333,6 +15509,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 969a27136b2624ecba1ba2354c6484b9, type: 3}
+--- !u!114 &1106897150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106897144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1106897146}
 --- !u!1 &1107309298
 GameObject:
   m_ObjectHideFlags: 0
@@ -16376,6 +16568,11 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23401548887859886, guid: 986018609aace41d9a8be7415288bb19,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce078ec6896314c188743d67d8f6bedf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 986018609aace41d9a8be7415288bb19, type: 2}
   m_IsPrefabAsset: 0
@@ -17713,6 +17910,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1582283805210234, guid: 71e65f77653294c689a6bd798c48df70,
     type: 2}
   m_PrefabInternal: {fileID: 237055883}
+--- !u!95 &1305247414
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1305247413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e678a4e2ce6c08a46a9dd05451dde075, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1305247417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17727,6 +17942,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 48522e3d8d628463bab5079a57fe0c9f, type: 3}
+--- !u!114 &1305247419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1305247413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1305247414}
 --- !u!1 &1307749735
 GameObject:
   m_ObjectHideFlags: 0
@@ -18700,6 +18931,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1830839376650778, guid: 054a08487b0a94c4dab1a9d9e1b46397,
     type: 2}
   m_PrefabInternal: {fileID: 1638085235}
+--- !u!95 &1393624885
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1393624884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5771c31b524bff64282e4d6e06d847ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1393624888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18714,6 +18963,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: b16e468c9f1124d3f85c113f337cc9c0, type: 3}
+--- !u!114 &1393624890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1393624884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1393624885}
 --- !u!4 &1396598727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4327853824750982, guid: 71c1bb18c05b942aca927e2a821ad63c,
@@ -21276,6 +21541,11 @@ Prefab:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 23869710275942936, guid: 054a08487b0a94c4dab1a9d9e1b46397,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eded79c74af6f457ca1728c3d6b16226, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 054a08487b0a94c4dab1a9d9e1b46397, type: 2}
   m_IsPrefabAsset: 0
@@ -23394,6 +23664,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1385389102601120, guid: 9743e46f173484ad7b4cb2b92bcba10d,
     type: 2}
   m_PrefabInternal: {fileID: 148512244}
+--- !u!95 &1774999143
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774999141}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 17299338bbbf4064abfa368d7de5d28f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1774999145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23408,6 +23696,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 50335d826f87f40cba940a2e8ef2faf0, type: 3}
+--- !u!114 &1774999147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774999141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1774999143}
 --- !u!1 &1778462901
 GameObject:
   m_ObjectHideFlags: 0
@@ -24428,6 +24732,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1068920995134308, guid: e55f769a2b5d348309f6ff7bc5c58ca2,
     type: 2}
   m_PrefabInternal: {fileID: 420084380}
+--- !u!95 &1818896390
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1818896388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80dbed7e3bc445a4981a4c657135af89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1818896392
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24442,6 +24764,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: daaa72931076045a5a66c3f34a8c9394, type: 3}
+--- !u!114 &1818896394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1818896388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb83de2c4270ad04cbae38b303af85be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 0
+  isBlinking: 0
+  isPressed: 0
+  isEnabled: 0
+  Anim: {fileID: 1818896390}
 --- !u!1 &1820597975
 GameObject:
   m_ObjectHideFlags: 0
@@ -26225,6 +26563,11 @@ Prefab:
       propertyPath: m_TagString
       value: button
       objectReference: {fileID: 0}
+    - target: {fileID: 23211461214841540, guid: 6c46df95495f54693b83c2c6d57a77f6,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 201188cef0cbd41e89e6b18da0de9bc1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c46df95495f54693b83c2c6d57a77f6, type: 2}
   m_IsPrefabAsset: 0
