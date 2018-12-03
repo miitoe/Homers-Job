@@ -19,6 +19,7 @@ public class CameraController : MonoBehaviour {
 	float rotationY = 0f;
 	private Vector3 offset;
 	Text messagetext;
+	GameObject puzzle;
 
 	void checkinteraction() {
 		Vector3 origin = cam.transform.position;
@@ -37,12 +38,19 @@ public class CameraController : MonoBehaviour {
 				 }
 			 }
 		}
+		if (puzzle.GetComponent<PuzzleLogic>().win == true) {
+			messagetext.text = "You Win!";
+		}
+		if (puzzle.GetComponent<PuzzleLogic>().tries >= 3) {
+			messagetext.text = "You lost.";
+		}
 	}
 	void Start () {
+		puzzle = GameObject.FindGameObjectWithTag("puzzle");
 		messagetext = GameObject.Find("Canvas/Text").GetComponent<Text>();
 		offset = cam.transform.position - Player.transform.position;
 		Cursor.lockState = CursorLockMode.Locked;
-		if (Input.GetKey(KeyCode.Escape)) {
+		if (Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.P)) {
 			Cursor.lockState = CursorLockMode.None;
 			Cursor.visible = true;
 		}
@@ -50,6 +58,7 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		rotationY += Input.GetAxis("Mouse X") * sensitivityY;
 		rotationX += Input.GetAxis("Mouse Y") * sensitivityX;
 
